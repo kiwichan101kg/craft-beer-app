@@ -1,5 +1,6 @@
-import Image from "next/image";
+import { HomeScreen } from "@/screen/home";
+import React from "react";
 
 export default function Home() {
-  return <main>Top</main>;
+  return <HomeScreen />;
 }
